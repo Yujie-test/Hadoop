@@ -23,8 +23,8 @@ public class Spark03_RDD_Disk_Partition_Data {
         //      2.分区数量的存储是考虑业务数据的完成性：按照行来读取
         //          读取数据时，还需要考虑数据偏移量，偏移量从0开始
         //          读取数据时，相同的偏移量不能重复读取
-        JavaRDD<String> rdd = jsc.textFile("data/test.txt", 2);
-        rdd.saveAsTextFile("output");
+        JavaRDD<String> rdd = jsc.textFile("Spark/data/test.txt", 2);
+        rdd.saveAsTextFile("Spark/output");
 
         jsc.close();
 
