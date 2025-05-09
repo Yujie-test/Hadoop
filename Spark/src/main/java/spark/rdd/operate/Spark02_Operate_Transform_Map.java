@@ -40,9 +40,6 @@ public class Spark02_Operate_Transform_Map {
         System.out.println("****************************************");
         System.out.println(nums);
 
-        // TODO RDD的方法
-
-
         jsc.close();
 
     }
