@@ -2,8 +2,6 @@ package spark.rdd.operate;
 
 import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaSparkContext;
-import scala.Tuple1;
-import scala.Tuple2;
 
 import java.util.Arrays;
 
@@ -17,8 +15,6 @@ public class Spark01_Operate_Transform_Map {
         final JavaSparkContext jsc = new JavaSparkContext(conf);
 
         // TODO RDD的方法
-        jsc.parallelize(
-                Arrays.asList(1, 2, 3)
         );
 
         jsc.close();
