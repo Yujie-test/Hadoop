@@ -8,7 +8,7 @@ import org.apache.spark.api.java.function.Function;
 import java.util.Arrays;
 import java.util.List;
 
-public class Spark01_Operate_Transform_Map_1 {
+public class Spark02_Operate_Transform_Map_1 {
     public static void main(String[] args) {
 
         final SparkConf conf = new SparkConf();
